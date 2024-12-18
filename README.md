@@ -10,12 +10,6 @@ This **Task Scheduler Web App** is a lightweight, browser-based application desi
   - **Priority**: High, Medium, or Low
   - **Deadline**: Date input to specify the due date.
 
-### 🎯 Task Prioritization
-- Tasks are color-coded based on their priority:
-  - **High Priority**: 🔴 Red
-  - **Medium Priority**: 🟡 Yellow
-  - **Low Priority**: 🟢 Green
-
 ### 📅 Deadline Management
 - Display deadlines alongside each task for easy tracking.
 
