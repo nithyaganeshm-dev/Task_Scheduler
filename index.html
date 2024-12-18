@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <menu name="author" content="nithyaganesh"></menu>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Task Scheduler</h1>
+    </header>
+    <main>
+      <div class="task-form">
+        <input
+          type="text"
+          id="task"
+          placeholder="Enter task..."
+          class="user-input"
+        />
+        <select id="priority" class="user-select-input">
+          <option value="Top Priority">Top Priority</option>
+          <option value="Medium Priority">Medium Priority</option>
+          <option value="Less Priority">Less Priority</option>
+        </select>
+        <input type="date" id="deadline" class="user-date-input" /><br />
+      </div>
+      <button id="add-task" class="add-button">Add Task</button>
+      <div class="task-list" id="task-list">
+        <!-- Tasks will be added here dynamically -->
+      </div>
+      <script src="logic.js"></script>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

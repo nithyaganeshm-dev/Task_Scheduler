@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Comfortaa:wght@300..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.user-input {
+    height: 36px;
+    width: 150px;
+    border-width: 0;
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 100px;
+    outline: none;
+}
+
+.user-select-input {
+    height: 36px;
+    width: 150px;
+    background-color: gainsboro;
+    border-radius: 100px;
+    border-width: 0;
+    outline: none;
+    padding: 10px;
+}
+
+.user-date-input {
+    height: 36px;
+    width: 150px;
+    background-color: gainsboro;
+    border-radius: 100px;
+    border-width: 0;
+    outline: none;
+    padding: 10px;
+}
+
+.add-button {
+    height: 36px;
+    width: 100px;
+    background-color: #28a745;
+    color: #ffffff;
+    border-width: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
+.task-list {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.mark-done {
+    height: 36px;
+    width: 100px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
